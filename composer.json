@@ -33,10 +33,10 @@
         "yiisoft/yii-web": "^3.0@dev"
     },
     "autoload": {
-        "psr-4": {"TerabyteSoft\\Assets\\Bootbox\\": "src"}
+        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\": "src"}
     },
     "autoload-dev": {
-        "psr-4": {"TerabyteSoft\\Assets\\Bootbox\\Tests\\": "tests"}
+        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\Tests\\": "tests"}
     },
     "extra": {
         "branch-alias": {

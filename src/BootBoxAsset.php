@@ -14,11 +14,11 @@
  * Register assset bundle widget bootbox
  **/
 
-namespace TerabyteSoft\Assets\Bootbox;
+namespace TerabyteSoft\Assets\BootBox;
 
 use yii\web\AssetBundle;
 
-class BootboxAsset extends AssetBundle
+class BootBoxAsset extends AssetBundle
 {
 	public $sourcePath = '@npm/bootbox/';
 
