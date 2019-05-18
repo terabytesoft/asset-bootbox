@@ -18,7 +18,7 @@ namespace TerabyteSoft\Assets\Bootbox;
 
 use yii\web\AssetBundle;
 
-class BootBoxAsset extends AssetBundle
+class BootboxAsset extends AssetBundle
 {
 	public $sourcePath = '@npm/bootbox/';
 
