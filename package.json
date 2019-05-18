@@ -1,0 +1,7 @@
+{
+    "name": "font-awesome-free",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "bootbox": "^5.1.3"
+    }
+}
