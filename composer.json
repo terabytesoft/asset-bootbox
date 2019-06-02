@@ -1,14 +1,13 @@
 {
-    "name": "terabytesoft/bootbox",
+    "name": "terabytesoft/asset-bootbox",
     "type": "library",
-    "description": "Yii3 Assets Bootbox",
+    "description": "Yii3 Asset Bootbox",
     "keywords": [
         "yii3",
-        "assets",
-        "bootbox",
-        "free"
+        "asset",
+        "bootbox"
     ],
-    "homepage": "https://github.com/terabytesoft/bootbox",
+    "homepage": "https://github.com/terabytesoft/asset-bootbox",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -24,26 +23,24 @@
     "require-dev": {
 		"codeception/codeception": "^3.0",
 		"foxy/foxy": "^1.0",
-		"hiqdev/composer-config-plugin": "^1.0@dev",
-        "yiisoft/di": "^3.0@dev",
-		"yiisoft/log": "^3.0@dev",
-		"yiisoft/log-target-file": "^3.0@dev",
+        "hiqdev/composer-config-plugin": "^1.0@dev",
+        "nyholm/psr7": "^1.0",
         "yiisoft/cache": "^3.0@dev",
-        "yiisoft/yii-debug": "^3.0@dev",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/yii-core": "^3.0@dev",
         "yiisoft/yii-web": "^3.0@dev"
     },
     "autoload": {
-        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\": "src"}
+        "psr-4": {"TerabyteSoft\\Asset\\BootBox\\": "src/Assets"}
     },
     "autoload-dev": {
-        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\Tests\\": "tests"}
+        "psr-4": {"TerabyteSoft\\Asset\\BootBox\\Tests\\": "tests"}
     },
     "extra": {
         "branch-alias": {
             "dev-master": "0.0.1-dev"
         },
         "config-plugin": {
-            "defines": "config/defines.php",
             "params": "config/params.php",
             "common": "config/common.php",
             "codecept": [
