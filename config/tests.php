@@ -8,6 +8,7 @@ return [
         'controllerNamespace' => 'TerabyteSoft\Assets\BootBox\Tests\Controllers',
         'id' => 'asset.bootbox.tests',
         'name' => 'asset.bootbox.tests',
+        'layout' => '@TerabyteSoft/Assets/BootBox/Tests/Views/Layouts/Main.php',
     ],
     'aliases' => array_merge($aliases, [
         '__class'   => yii\base\Aliases::class,
