@@ -8,7 +8,7 @@
  * @author: Wilmer Arámbula <wilmer.arambula@gmail.com>
  */
 
-namespace TerabyteSoft\Asset\BootBox;
+namespace TerabyteSoft\Assets\BootBox;
 
 use yii\web\AssetBundle;
 
@@ -19,10 +19,10 @@ use yii\web\AssetBundle;
  */
 class BootBoxAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/bootbox/';
+    public $sourcePath = '@npm/bootbox/src';
 
     public $js = [
-        'src/bootbox.js',
+        'bootbox.js',
     ];
 
     public $publishOptions = [
@@ -32,6 +32,6 @@ class BootBoxAsset extends AssetBundle
     ];
 
     public $depends = [
-        \TerabyteSoft\Asset\BootBox\YiiBootBox::class,
+        \TerabyteSoft\Assets\BootBox\YiiBootBoxAsset::class,
     ];
 }

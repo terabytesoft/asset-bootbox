@@ -23,18 +23,22 @@
     "require-dev": {
 		"codeception/codeception": "^3.0",
 		"foxy/foxy": "^1.0",
-        "hiqdev/composer-config-plugin": "^1.0@dev",
-        "nyholm/psr7": "^1.0",
-        "yiisoft/cache": "^3.0@dev",
+		"hiqdev/composer-config-plugin": "^1.0@dev",
+        "yiisoft/cache": "dev-master#b10f733",
         "yiisoft/di": "^3.0@dev",
-        "yiisoft/yii-core": "^3.0@dev",
-        "yiisoft/yii-web": "^3.0@dev"
+		"yiisoft/log": "^3.0@dev",
+        "yiisoft/log-target-file": "^3.0@dev",
+        "yiisoft/view": "^3.0@dev",
+        "yiisoft/yii-bootstrap4": "^3.0@dev",
+        "yiisoft/yii-debug": "^3.0@dev",
+        "yiisoft/yii-core": "dev-master#ac80ebf",
+        "yiisoft/yii-web": "dev-master#4d5d840"
     },
     "autoload": {
-        "psr-4": {"TerabyteSoft\\Asset\\BootBox\\": "src/Assets"}
+        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\": "src/Assets"}
     },
     "autoload-dev": {
-        "psr-4": {"TerabyteSoft\\Asset\\BootBox\\Tests\\": "tests"}
+        "psr-4": {"TerabyteSoft\\Assets\\BootBox\\Tests\\": "tests/src"}
     },
     "extra": {
         "branch-alias": {
@@ -43,10 +47,11 @@
         "config-plugin": {
             "params": "config/params.php",
             "common": "config/common.php",
+            "web": "config/web.php",
             "codecept": [
-                "$defines",
                 "$params",
                 "$common",
+                "$web",
                 "config/tests.php"
             ]
         }
