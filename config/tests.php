@@ -42,10 +42,4 @@ return [
         // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
         'cookieValidationKey' => 'testme',
     ],
-    'theme' => [
-        'pathMap' => [
-            '@app/views/layouts' => '@TerabyteSoft/Assets/BootBox/Tests/Views/Layouts',
-            '@app/views/site'    => '@TerabyteSoft/Assets/BootBox/Tests/Views/Site',
-        ],
-    ],
 ];
