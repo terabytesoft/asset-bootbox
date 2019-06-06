@@ -23,7 +23,8 @@
     "require-dev": {
 		"codeception/codeception": "^3.0",
 		"foxy/foxy": "^1.0",
-		"hiqdev/composer-config-plugin": "^1.0@dev",
+        "hiqdev/composer-config-plugin": "^1.0@dev",
+        "nyholm/psr7": "^1.0",
         "yiisoft/cache": "dev-master#b10f733",
         "yiisoft/di": "^3.0@dev",
 		"yiisoft/log": "^3.0@dev",
