@@ -23,20 +23,6 @@ return [
         'basePath'  => '@public/assets',
         'baseUrl'   => '@web/assets',
     ],
-    'cache' => [
-        '__class' => \Yiisoft\Cache\Cache::class,
-        'handler' => [
-            '__class'   => \Yiisoft\Cache\FileCache::class,
-            'keyPrefix' => 'asset.bootbox.tests'
-        ],
-    ],
-    'logger' => function () {
-        return new \Yiisoft\Log\Logger([
-            new Yiisoft\Log\FileTarget(
-                '/tests/public/@runtime/logs/app.log'
-            )
-        ]);
-    },
     'request' => [
         'enableCookieValidation' => true,
         // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

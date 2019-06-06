@@ -95,30 +95,12 @@ class BootBoxCest
 
         $result = $this->view->renderFile('@TerabyteSoft/Assets/BootBox/Tests/Views/Layouts/Main.php');
 
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/bootstrap.css/',
-            $result,
-        );
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/jquery.js/',
-            $result,
-        );
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/bootstrap.bundle.js/',
-            $result,
-        );
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/yii.js/',
-            $result,
-        );
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/YiiBootBox.js/',
-            $result,
-        );
-        \PHPUnit_Framework_Assert::assertRegexp(
-            '/bootbox.js/',
-            $result,
-        );
+        \PHPUnit_Framework_Assert::assertRegexp('/bootstrap.css/', $result);
+        \PHPUnit_Framework_Assert::assertRegexp('/jquery.js/', $result);
+        \PHPUnit_Framework_Assert::assertRegexp('/bootstrap.bundle.js/', $result);
+        \PHPUnit_Framework_Assert::assertRegexp('/yii.js/', $result);
+        \PHPUnit_Framework_Assert::assertRegexp('/YiiBootBox.js/', $result);
+        \PHPUnit_Framework_Assert::assertRegexp('/bootbox.js/', $result);
     }
 
     /**
