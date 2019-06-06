@@ -90,6 +90,14 @@ echo Yiisoft\Yii\Bootstrap4\Html::a(
 );
 ~~~
 
+### **RUN TESTS CODECEPTION:**
+
+~~~
+$ cd vendor/terabytesoft/asset-bootbox
+$ composer update --prefer-dist -vvv
+$ vendor/bin/codecept run
+~~~
+
 ### **WEB SERVER SUPPORT:**
 
 - Apache.
