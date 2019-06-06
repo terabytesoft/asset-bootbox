@@ -15,7 +15,9 @@ use Yiisoft\Yii\JQuery\JqueryAsset;
 use Yiisoft\Yii\JQuery\YiiAsset;
 
 /**
- * Undocumented class
+ * Class BootBoxCest.
+ *
+ * Unit tests for codeception
  */
 class BootBoxCest
 {
@@ -24,7 +26,7 @@ class BootBoxCest
     protected $view;
 
     /**
-     * Undocumented function
+     * _before
      *
      * @param UnitTester $I
      * @return void
@@ -37,7 +39,7 @@ class BootBoxCest
     }
 
     /**
-     * Undocumented function
+     * bootBoxSimpleDependency
      *
      * @return void
      */
@@ -61,7 +63,7 @@ class BootBoxCest
     }
 
     /**
-     * Undocumented function
+     * bootBoxSourcesPublish
      *
      * @param UnitTester $I
      * @return void
@@ -74,7 +76,7 @@ class BootBoxCest
     }
 
     /**
-     * Undocumented function
+     * bootBoxRegister
      *
      * @param UnitTester $I
      * @return void
@@ -104,10 +106,10 @@ class BootBoxCest
     }
 
     /**
-     * Undocumented function
+     * sourcesPublishVerifyFiles
      *
-     * @param [type] $type
-     * @param [type] $bundle
+     * @param string $type
+     * @param array  $bundle
      * @return void
      */
     private function sourcesPublishVerifyFiles($type, $bundle)
