@@ -6,5 +6,4 @@ namespace TerabyteSoft\Tests\Codeception\BootBox\Helper;
 
 class Unit extends \Codeception\Module
 {
-
 }

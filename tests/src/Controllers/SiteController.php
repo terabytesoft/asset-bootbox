@@ -27,10 +27,10 @@ class SiteController extends Controller
     /**
      * actionIndex
      *
-	 * @return string actions config
-	 **/
+     * @return string actions config
+     **/
     public function actionIndex(): string
     {
         return $this->render('@TerabyteSoft/Assets/BootBox/Tests/Views/Site/Index.php');
-	}
+    }
 }
