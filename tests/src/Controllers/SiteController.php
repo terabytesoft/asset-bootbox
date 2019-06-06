@@ -31,6 +31,6 @@ class SiteController extends Controller
 	 **/
     public function actionIndex(): string
     {
-        return $this->render('Index');
+        return $this->render('@TerabyteSoft/Assets/BootBox/Tests/Views/Site/Index.php');
 	}
 }

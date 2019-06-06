@@ -19,7 +19,6 @@ return [
     ]),
     'assetManager' => [
         '__class'   => yii\web\AssetManager::class,
-        'appendTimestamp' => false,
         'basePath'  => '@public/assets',
         'baseUrl'   => '@web/assets',
     ],
@@ -40,6 +39,6 @@ return [
     'request' => [
         'enableCookieValidation' => true,
         // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-        'cookieValidationKey' => 'testme',
+        'cookieValidationKey' => 'asset.bootbox.tests',
     ],
 ];

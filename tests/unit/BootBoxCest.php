@@ -32,10 +32,7 @@ class BootBoxCest
     public function _before(UnitTester $I)
     {
         $app = Yii::getApp();
-        $theme = new Theme($pathMap = [
-            '@app/views/layouts' => '@TerabyteSoft/Assets/BootBox/Tests/Views/Layouts',
-            '@app/views/site'    => '@TerabyteSoft/Assets/BootBox/Tests/Views/Site',
-        ]);
+        $theme = new Theme();
         $this->view = new View($app, $theme);
     }
 
